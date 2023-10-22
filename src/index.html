@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brazil Social Business Forum</title>
+    <link rel="stylesheet" href="../src/styles/output.css" />
+  </head>
+  <body>
+    <!------------------------------------------ Hero Section -------------------------------------------->
+    <section class="h-screen header relative">
+      <!----------------------------------------------- Navbar ------------------------------------------->
+      <div class="h-[20%] lg:h-auto">
+        <nav
+          class="flex justify-between items-center lg:pl-20 lg:px-0 px-5 lg:py-16 py-5">
+          <a href="/" class="lg:visible invisible" id="nav-logo">
+            <img
+              class="lg:h-full lg:w-full w-44 h-auto object-contain"
+              src="./assets/images/bsbf-logo.png"
+              alt="bsbf-logo" />
+          </a>
+          <button class="lg:hidden" id="menu-btn">
+            <i class="fa-solid fa-bars text-3xl text-[#13415E]"></i>
+          </button>
+          <ul
+            class="flex lg:flex-row flex-col justify-center items-center gap-16 lg:gap-10 font-semibold lg:bg-[#13415E] bg-[#13415E]/80 lg:py-5 2xl:px-36 lg:px-20 px-16 text-white lg:rounded-tl-full absolute lg:static h-screen lg:h-auto w-full lg:w-auto top-0 -left-full transition-all duration-300 z-50"
+            id="menu">
+            <button class="absolute top-5 right-5 lg:hidden" id="cancel-btn">
+              <i class="fa-regular fa-circle-xmark text-3xl"></i>
+            </button>
+            <li class="lg:hidden">
+              <a href="/">
+                <img
+                  class="h-full w-full object-contain"
+                  src="./assets/images/bsbf-logo.png"
+                  alt="bsbf-logo" />
+              </a>
+            </li>
+            <li>
+              <a class="active:text-[#FCB918]" href="#">About</a>
+            </li>
+            <li>
+              <a class="active:text-[#FCB918]" href="#">Agenda</a>
+            </li>
+            <li>
+              <a class="active:text-[#FCB918]" href="#">Speakers</a>
+            </li>
+            <li>
+              <a class="active:text-[#FCB918]" href="#">Partners</a>
+            </li>
+            <li>
+              <a
+                class="active:text-[#FCB918] text-[#F05647] lg:block hidden"
+                href="#"
+                >Register</a
+              >
+              <a
+                href="#"
+                class="lg:hidden py-3.5 px-16 bg-[#F05647] rounded-tl-full rounded-br-full">
+                Register Now
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!----------------------------------------------- Hero-Text ----------------------------------------->
+      <div
+        class="flex lg:justify-center h-[70%] justify-between gap-10 items-center flex-col lg:h-auto lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-[20%] w-full px-5 z-10"
+        id="banner-text">
+        <div class="px-12 lg:hidden">
+          <img src="../src/assets/images/bsbf-logo.png" alt="" />
+        </div>
+        <div class="text-center lg:mt-0">
+          <h1
+            class="2xl:text-[72px] lg:text-[60px] text-[29px] font-bold leading-[1] text-[#13415E] w-full">
+            Brazil Social Business Forum <br class="lg:block hidden" />
+            on Youth Entrepreneurship 2024
+          </h1>
+          <a
+            href="#"
+            class="py-3.5 lg:px-24 px-20 bg-[#F05647] rounded-tl-full rounded-br-full text-white lg:mt-16 mt-10 inline-block hover:-translate-y-3 transition-all duration-500">
+            Register Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------- Sections container --------------------------------------->
+    <section class="2xl:w-9/12 w-10/12 mx-auto">
+      <!------------------------------------ Intro Section -------------------------------------------------->
+      <div class="2xl:py-32 lg:py-24 py-20">
+        <div class="grid lg:grid-cols-2 grid-cols-1">
+          <div class="flex flex-col gap-5">
+            <img
+              class="2xl:w-80 lg:w-60 h-auto mx-auto lg:mx-0 object-contain mb-7"
+              src="../src/assets/images/art.png"
+              alt="" />
+            <h2
+              class="2xl:text-[61px] lg:text-[45px] text-[30px] text-center lg:text-left text-[#13415E] leading-[1] font-bold">
+              "All humans are born entrepreneurs"
+            </h2>
+            <div>
+              <div>
+                <p
+                  class="flex justify-start lg:flex-row flex-col items-center 2xl:text-[27px] text-[20px] font-semibold text-[#13415E]">
+                  <span
+                    class="px-20 lg:px-14 h-[4px] bg-[#F05647] inline-block mr-3 mt-3 mb-6 lg:mt-0 lg:mb-0"></span
+                  >Professor Muhammad Yunus
+                </p>
+                <p
+                  class="flex justify-start lg:flex-row flex-col items-center 2xl:text-[27px] text-[20px] text-[#13415E]">
+                  <span
+                    class="px-20 lg:px-14 h-[4px] lg:inline-block mr-3 hidden"></span
+                  >2006 Nobel Peace Laureate
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10 lg:mt-0">
+            <p class="2xl:text-[26px] lg:text-[20px] text-[18px]">
+              Brazil Social Business Forum on Youth Entrepreneurship 2024 will
+              be a transformative event that aims to address two pressing
+              challenges Brazil is facing today: youth unemployment and climate
+              protection. As a country with great potential but facing social
+              and environmental issues, social businesses can offer a proven way
+              to tackle these challenges in Brazil. The forum will serve as a
+              platform to explore how the principles of social business can not
+              only provide avenues for tackling youth unemployment, but also
+              empower young entrepreneurs to lead the charge in safeguarding our
+              planet's delicate climate balance.
+            </p>
+          </div>
+
+          <button
+            class="w-fit font-semibold mr-auto text-[#F05647] text-[20px] lg:hidden md:block mt-5"
+            id="read-more-btn">
+            read more >
+          </button>
+        </div>
+        <br class="lg:block hidden" /><br class="lg:block hidden" /><br />
+        <div class="lg:block hidden" id="more-text">
+          <p class="2xl:text-[26px] lg:text-[20px] text-[18px]">
+            Brazil, the world's fifth-largest country in terms of area with a
+            population of over 215 million, faces the challenge of creating jobs
+            for its growing number of young adults, with a median age of 32.4
+            years as of 2020. <br /><br />
+
+            The conventional approach to job creation often needs to address the
+            multifaceted dimensions of this challenge. Social Business, which
+            Nobel Peace Laureate Professor Muhammad Yunus coined, offers a
+            unique approach to addressing social and environmental problems that
+            differs from the usual way of doing business. It involves not only
+            providing financial support, but also building a network of
+            like-minded individuals who share a vision for a better future.
+            <br />
+            <br />
+
+            To provide an inclusive space for entrepreneurs, young people,
+            ecosystem builders, policymakers and investors to collaborate and
+            identify key challenges and opportunities in the social business
+            sector, the Brazil Social Business Forum on Youth Entrepreneurship
+            2024 will be a one or two-day-long event that will bring together a
+            flourishing community of like-minded individuals who share a common
+            goal of developing sustainable social business solutions to tackle
+            Brazil's urgent social and environmental challenges.
+          </p>
+        </div>
+      </div>
+
+      <div class="lg:grid lg:grid-cols-2 flex flex-col-reverse">
+        <div class="bg-[#F05647] lg:px-28 lg:py-20 py-14 space-y-5 text-center">
+          <div>
+            <p
+              class="flex lg:justify-start justify-center text-center lg:flex-row flex-col-reverse items-center 2xl:text-[27px] text-[20px] font-semibold text-[#13415E]">
+              <span
+                class="2xl:px-10 px-8 lg:px-8 h-[4px] bg-[#fff] inline-block lg:mr-5 mt-3 lg:mt-0 lg:mb-0"></span
+              >When
+            </p>
+            <h3
+              class="2xl:text-[60px] text-[38px] font-bold text-white mt-3 lg:mt-0 w-fit">
+              March, 2024
+            </h3>
+          </div>
+          <div>
+            <p
+              class="flex lg:justify-start justify-center text-center lg:flex-row flex-col-reverse items-center 2xl:text-[27px] text-[20px] font-semibold text-[#13415E]">
+              <span
+                class="2xl:px-10 px-8 lg:px-8 h-[4px] bg-[#fff] inline-block lg:mr-5 mt-3 lg:mt-0 lg:mb-0"></span
+              >Where
+            </p>
+            <h3
+              class="2xl:text-[60px] text-[38px] font-bold text-white mt-3 lg:mt-0 w-fit">
+              TBD, Brazil
+            </h3>
+          </div>
+
+          <div class="flex justify-center lg:justify-end mt-10">
+            <a
+              href="#"
+              class="py-2 2xl:px-16 px-12 bg-[#F05647] rounded-tl-full rounded-br-full text-white border-4 border-white font-semibold">
+              View Full Agenda
+            </a>
+          </div>
+        </div>
+        <div>
+          <img
+            class="w-full h-full object-cover"
+            src="../src/assets/images/image-one.png"
+            alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    const menu = document.getElementById("menu");
+    const menuBtn = document.getElementById("menu-btn");
+    const cancelBtn = document.getElementById("cancel-btn");
+    const navLogo = document.getElementById("nav-logo");
+    const bannerText = document.getElementById("banner-text");
+    const readmoreBtn = document.getElementById("read-more-btn");
+    const moreText = document.getElementById("more-text");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.remove("-left-full");
+      menu.classList.add("tansition-all");
+      menu.classList.add("left-0");
+      menuBtn.classList.add("hidden");
+      navLogo.classList.add("hidden");
+      bannerText.classList.remove("flex");
+      bannerText.classList.add("hidden");
+    });
+
+    cancelBtn.addEventListener("click", () => {
+      menu.classList.add("-left-full");
+      menu.classList.remove("left-0");
+      menuBtn.classList.remove("hidden");
+      navLogo.classList.remove("hidden");
+      bannerText.classList.remove("invisible");
+      bannerText.classList.add("flex");
+      bannerText.classList.remove("hidden");
+    });
+
+    readmoreBtn.addEventListener("click", () => {
+      readmoreBtn.classList.add("hidden");
+      moreText.classList.remove("hidden");
+    });
+  </script>
+</html>
