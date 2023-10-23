@@ -16,6 +16,16 @@ body {
     background-repeat: no-repeat;
 }
 
+.speakers-container {
+    background: url('../assets/images/speakers-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.speaker-shadow {
+    box-shadow: 15px 15px #F05647;
+}
+
 @media screen and (max-width: 900px) {
     .header {
         background-position: -750px 0;
