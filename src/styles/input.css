@@ -22,8 +22,21 @@ body {
     background-size: cover;
 }
 
+.agenda-container {
+    background: url('../assets/images/agenda-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 .speaker-shadow {
     box-shadow: 15px 15px #F05647;
+}
+
+@media screen and (max-width: 1536px) {
+    .agenda-container {
+        background-position: -500px 0;
+    }
 }
 
 @media screen and (max-width: 900px) {
